@@ -1,6 +1,8 @@
-.burger-img,.sandwich-img,.lasagna-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.burger-img,
+.sandwich-img,
+.lasagna-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

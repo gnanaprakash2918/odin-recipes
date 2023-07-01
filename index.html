@@ -7,36 +7,49 @@
       body {
         background-color: aliceblue;
       }
-
-      ul {
-        padding-top: 10px;
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px 0px 10px 0px;
-        box-sizing: border-box;
-        text-align: center;
-        border: 2px solid black;
-        justify-content: center;
-      }
-
-      li {
-        margin-left: 45px;
-        list-style-type: disc;
-        font-size: 20px;
-        display: inline;
-      }
-
-      li:hover {
-        background-color: aqua;
-      }
     </style>
   </head>
 
   <body>
     <h1 style="text-align: center">Odin Recipes</h1>
+
+    <div class="recipe-container" id="container">
+      <div class="lasagna-container">
+        <img
+          src="images/lasagna-card.jpg"
+          width="250px"
+          height="300px"
+          alt="lasagna-alt"
+        />
+        <h1>Lasagna</h1>
+        <p>
+          <strong>Lasagna</strong>, famed worldwide, has ancient origins and
+          remains an Italian superstar dish. Basically, lasagna is a baked
+          casserole made with wide flat pasta and layered with fillings such as
+          ragú, bechamel, vegetables and various cheeses.
+        </p>
+
+        <section class="recipe-info">
+          <ul>
+            <li class="recipe-prep-time">
+              <h2>Preparation Time</h2>
+              <p>30 min</p>
+            </li>
+            <li>
+              <h2>Total Time</h2>
+              <p>40 min</p>
+            </li>
+            <li>
+              <h2>Yield</h2>
+              <p>40 min</p>
+            </li>
+          </ul>
+        </section>
+        <a href="./recipes/lasagna.html">View Recipe</a>
+      </div>
+    </div>
+
     <ul>
-      <li class="first"><a href="./recipes/lasagna.html">Lasagna</a></li>
       <li>
         <a href="./recipes/grilled-cheese-sandwich.html"
           >Grilled Cheese Sandwich</a
