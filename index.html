@@ -1,61 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
     <title>Recipes Index</title>
-    <style>
-      body {
-        background-color: aliceblue;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
   </head>
 
   <body>
-    <h1 style="text-align: center">Odin Recipes</h1>
-
-    <div class="recipe-container" id="container">
+    <h1 class="recipes-title" style="text-align: center">Recipes Index</h1>
+    <div class="container" id="container">
       <div class="lasagna-container">
         <img
           src="images/lasagna-card.jpg"
-          width="250px"
-          height="300px"
-          alt="lasagna-alt"
+          class="lasagna-card-img"
+          alt="lasagna-image"
         />
-        <h1>Lasagna</h1>
-        <p>
-          <strong>Lasagna</strong>, famed worldwide, has ancient origins and
-          remains an Italian superstar dish. Basically, lasagna is a baked
-          casserole made with wide flat pasta and layered with fillings such as
-          ragú, bechamel, vegetables and various cheeses.
-        </p>
 
-        <section class="recipe-info">
-          <ul>
-            <li class="recipe-prep-time">
-              <h2>Preparation Time</h2>
-              <p>30 min</p>
-            </li>
-            <li>
-              <h2>Total Time</h2>
-              <p>40 min</p>
-            </li>
-            <li>
-              <h2>Yield</h2>
-              <p>40 min</p>
-            </li>
-          </ul>
-        </section>
-        <a href="./recipes/lasagna.html">View Recipe</a>
+        <div class="lasagna-card-content">
+          <h1 class="lasagna-card-title">Lasagna</h1>
+          <p class="lasagna-card-info">
+            Lasagna is the name of one of the oldest and best-known pasta
+            shapes. It is usually rectangular or ribbon shaped, thicker than
+            tagliatelle, made from a dough based on flour and eggs, with
+            numerous local variants. After being boiled, the rectangular lasagna
+            noodles are drained and placed in layers with a filling that varies
+            based on different local traditions.
+          </p>
+
+          <section class="lasagna-card-content">
+            <ul>
+              <li>
+                <h2>Preparation time</h2>
+                <p>15 min</p>
+              </li>
+              <li>
+                <h2>Cook time</h2>
+                <p>90 min</p>
+              </li>
+            </ul>
+          </section>
+          <a href="#">View Recipe</a>
+        </div>
       </div>
     </div>
-
-    <ul>
-      <li>
-        <a href="./recipes/grilled-cheese-sandwich.html"
-          >Grilled Cheese Sandwich</a
-        >
-      </li>
-      <li><a href="./recipes/burger.html">Burger</a></li>
-    </ul>
   </body>
 </html>
