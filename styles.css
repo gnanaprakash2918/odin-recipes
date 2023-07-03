@@ -6,6 +6,10 @@
   /* outline: 1px solid red; */
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 .container {
   text-align: left;
 }
