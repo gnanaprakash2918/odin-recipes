@@ -96,3 +96,22 @@ section.burger-card-content {
   color: white;
   padding: 10px 20px;
 }
+
+.lasagna-heading {
+  color: darkblue;
+}
+
+.lasagna-div {
+  text-align: center;
+  border: 2px solid darkred;
+  padding: 30px;
+  margin: 40px 50px;
+}
+
+.lasagna-img {
+  display: inline-block;
+  margin: 20px auto;
+  width: 85%;
+  border: 3px solid green;
+  margin-bottom: 40px;
+}
