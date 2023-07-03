@@ -172,3 +172,9 @@ section.burger-card-content {
   letter-spacing: 0.55px;
   font-size: 16px;
 }
+
+.main-page {
+  padding: 10px 8px;
+  background-color: yellow;
+  color: black;
+}
