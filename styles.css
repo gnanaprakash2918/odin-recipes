@@ -107,6 +107,7 @@ section.burger-card-content {
   border: 2px solid darkred;
   padding: 30px;
   margin: 40px 50px;
+  background-color: #dddddd;
 }
 
 .lasagna-img {
@@ -127,18 +128,20 @@ section.burger-card-content {
 }
 
 .lasagna-ingredients-div {
-  border: 2px dotted black;
+  border: 4px dotted black;
   width: 50%;
   text-align: left;
   margin: 50px auto;
-  padding: 20px;
+  padding: 40px;
+  background-color: lightcoral;
 }
 
 .lasagna-ingredients-title {
   font-size: 25px;
-  /* margin: 10px auto; */
 }
 
 .lasagna-ingredients-list {
-  margin: 0px auto;
+  margin: 0px 20px;
+  list-style-type: disc;
+  text-transform: capitalize;
 }
