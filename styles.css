@@ -1,5 +1,6 @@
 * {
   line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -113,5 +114,31 @@ section.burger-card-content {
   margin: 20px auto;
   width: 85%;
   border: 3px solid green;
-  margin-bottom: 40px;
+}
+
+.lasagna-desc-title {
+  margin: 10px auto;
+}
+
+.lasagna-desc {
+  text-align: justify;
+  font-size: 18px;
+  margin: 40px auto;
+}
+
+.lasagna-ingredients-div {
+  border: 2px dotted black;
+  width: 50%;
+  text-align: left;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.lasagna-ingredients-title {
+  font-size: 25px;
+  /* margin: 10px auto; */
+}
+
+.lasagna-ingredients-list {
+  margin: 0px auto;
 }
