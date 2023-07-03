@@ -13,7 +13,6 @@
 .lasagna-container {
   border: 2px solid darkred;
   margin: 0 auto;
-  padding: 15px;
   width: 900px;
 }
 
@@ -24,8 +23,13 @@
   width: 530px;
 }
 
+section.lasagna-card-content {
+  width: 350px;
+}
+
 .lasagna-card-content p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .lasagna-container img {
@@ -40,15 +44,29 @@
 }
 
 .lasagna-card-content h2 {
-  font-size: 20px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
-ul {
-  list-style-type: none;
+.lasagna-card-content li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 ul,
 a {
   text-decoration: none;
   text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.lasagna-link {
+  vertical-align: top;
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
 }
