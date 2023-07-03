@@ -121,6 +121,11 @@ section.burger-card-content {
   margin: 10px auto;
 }
 
+.lasagna-desc-div {
+  padding: 20px;
+  border: 4px dotted green;
+}
+
 .lasagna-desc {
   text-align: justify;
   font-size: 18px;
@@ -144,4 +149,21 @@ section.burger-card-content {
   margin: 0px 20px;
   list-style-type: disc;
   text-transform: capitalize;
+}
+
+.lasagna-directions-div {
+  margin: 40px auto;
+  width: 95%;
+  border: 4px dotted red;
+}
+
+.lasagna-directions-title {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.lasagna-directions-div ol {
+  text-align: left;
+  padding: 0;
+  margin: 50px;
 }
