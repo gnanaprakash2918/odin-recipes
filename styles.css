@@ -10,45 +10,57 @@
   text-align: left;
 }
 
-.lasagna-container {
+.lasagna-container,
+.cheese-sandwich-container {
   border: 2px solid darkred;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 900px;
 }
 
-.lasagna-card-content {
+.lasagna-card-content,
+.cheese-sandwich-card-content {
   display: inline-block;
   text-align: left;
   vertical-align: top;
   width: 530px;
 }
 
-section.lasagna-card-content {
+section.lasagna-card-content,
+section.cheese-sandwich-card-content {
   width: 350px;
 }
 
-.lasagna-card-content p {
+.lasagna-card-content p,
+.cheese-sandwich-card-content p {
   margin-bottom: 30px;
   font-size: 20px;
 }
 
-.lasagna-container img {
+.lasagna-container img,
+.cheese-sandwich-container img {
   margin-right: 30px;
   vertical-align: top;
   width: 300px;
   display: inline-block;
 }
 
-.lasagna-card-title {
+.cheese-sandwich-container img {
+  height: 348px;
+}
+
+.lasagna-card-title,
+.cheese-sandwich-card-title {
   color: darkred;
 }
 
-.lasagna-card-content h2 {
+.lasagna-card-content h2,
+.cheese-sandwich-card-content h2 {
   font-weight: bolder;
   font-size: 18px;
 }
 
-.lasagna-card-content li {
+.lasagna-card-content li,
+.cheese-sandwich-card-content li {
   display: inline-block;
   margin-right: 20px;
 }
@@ -63,7 +75,8 @@ ul {
   list-style-type: none;
 }
 
-.lasagna-link {
+.lasagna-link,
+.cheese-sandwich-link {
   vertical-align: top;
   display: inline-block;
   background-color: orange;
