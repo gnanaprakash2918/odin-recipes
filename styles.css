@@ -167,3 +167,8 @@ section.burger-card-content {
   padding: 0;
   margin: 50px;
 }
+
+.lasagna-directions-div li {
+  letter-spacing: 0.55px;
+  font-size: 16px;
+}
