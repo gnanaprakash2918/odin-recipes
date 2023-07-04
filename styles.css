@@ -206,7 +206,9 @@ section.burger-card-content {
 }
 
 .main-page {
-  padding: 10px 8px;
-  background-color: yellow;
-  color: black;
+  vertical-align: top;
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
 }
