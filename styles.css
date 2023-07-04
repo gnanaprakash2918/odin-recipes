@@ -98,11 +98,14 @@ section.burger-card-content {
   padding: 10px 20px;
 }
 
-.lasagna-heading {
+.lasagna-heading,
+.grilled-cheese-sandwich-heading,
+.burger-heading {
   color: darkblue;
 }
 
-.lasagna-div {
+.lasagna-div,
+.grilled-cheese-sandwich-div {
   text-align: center;
   border: 2px solid darkred;
   padding: 30px;
@@ -110,29 +113,34 @@ section.burger-card-content {
   background-color: #dddddd;
 }
 
-.lasagna-img {
+.lasagna-img,
+.grilled-cheese-sandwich-img {
   display: inline-block;
   margin: 20px auto;
   width: 85%;
   border: 3px solid green;
 }
 
-.lasagna-desc-title {
+.lasagna-desc-title,
+.grilled-cheese-sandwich-title {
   margin: 10px auto;
 }
 
-.lasagna-desc-div {
+.lasagna-desc-div,
+.grilled-cheese-sandwich-desc-div {
   padding: 20px;
   border: 4px dotted green;
 }
 
-.lasagna-desc {
+.lasagna-desc,
+.grilled-cheese-sandwich-desc {
   text-align: justify;
   font-size: 18px;
   margin: 40px auto;
 }
 
-.lasagna-ingredients-div {
+.lasagna-ingredients-div,
+.grilled-cheese-sandwich-ingredients-div {
   border: 4px dotted black;
   width: 50%;
   text-align: left;
@@ -141,36 +149,43 @@ section.burger-card-content {
   background-color: lightcoral;
 }
 
-.lasagna-ingredients-title {
+.lasagna-ingredients-title,
+.grilled-cheese-sandwich-ingredients-title {
   font-size: 25px;
 }
 
-.lasagna-ingredients-list {
+.lasagna-ingredients-list,
+.grilled-cheese-sandwich-ingredients-list {
   margin: 0px 20px;
   list-style-type: disc;
   text-transform: capitalize;
 }
 
-.lasagna-directions-div {
+.lasagna-directions-div,
+.grilled-cheese-sandwich-directions-div {
   margin: 40px auto;
   width: 95%;
   border: 4px dotted red;
 }
 
-.lasagna-directions-title {
+.lasagna-directions-title,
+.grilled-cheese-sandwich-directions-title {
   font-size: 25px;
   margin: 20px;
 }
 
-.lasagna-directions-div ol {
+.lasagna-directions-div ol,
+.grilled-cheese-sandwich-directions-div ol {
   text-align: left;
   padding: 0;
   margin: 50px;
 }
 
-.lasagna-directions-div li {
+.lasagna-directions-div li,
+.grilled-cheese-sandwich-directions-div li {
   letter-spacing: 0.55px;
   font-size: 16px;
+  line-height: 2;
 }
 
 .main-page {
